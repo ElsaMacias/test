@@ -1,0 +1,73 @@
+Tue Feb 10 20:57:37 2015 us=792439 Current Parameter Settings:
+Tue Feb 10 20:57:37 2015 us=793440   config = 'sample.ovpn'
+Tue Feb 10 20:57:37 2015 us=793440   mode = 0
+Tue Feb 10 20:57:37 2015 us=793440   show_ciphers = DISABLED
+Tue Feb 10 20:57:37 2015 us=793440   show_digests = DISABLED
+Tue Feb 10 20:57:37 2015 us=793440   show_engines = DISABLED
+Tue Feb 10 20:57:37 2015 us=793440   genkey = DISABLED
+Tue Feb 10 20:57:37 2015 us=793440   key_pass_file = '[UNDEF]'
+Tue Feb 10 20:57:37 2015 us=793440   show_tls_ciphers = DISABLED
+Tue Feb 10 20:57:37 2015 us=793440 Connection profiles [default]:
+Tue Feb 10 20:57:37 2015 us=793440 NOTE: --mute triggered...
+Tue Feb 10 20:57:37 2015 us=793440 275 variation(s) on previous 10 message(s) suppressed by --mute
+Tue Feb 10 20:57:37 2015 us=793440 OpenVPN 2.3.5 i686-w64-mingw32 [SSL (OpenSSL)] [LZO] [PKCS11] [IPv6] built on Nov  7 2014
+Tue Feb 10 20:57:37 2015 us=793440 library versions: OpenSSL 1.0.1j 15 Oct 2014, LZO 2.05
+Enter Management Password:
+Tue Feb 10 20:57:37 2015 us=795440 MANAGEMENT: TCP Socket listening on [AF_INET]127.0.0.1:25340
+Tue Feb 10 20:57:37 2015 us=795440 Need hold release from management interface, waiting...
+Tue Feb 10 20:57:38 2015 us=265467 MANAGEMENT: Client connected from [AF_INET]127.0.0.1:25340
+Tue Feb 10 20:57:38 2015 us=365472 MANAGEMENT: CMD 'state on'
+Tue Feb 10 20:57:38 2015 us=365472 MANAGEMENT: CMD 'log all on'
+Tue Feb 10 20:57:38 2015 us=397474 MANAGEMENT: CMD 'hold off'
+Tue Feb 10 20:57:38 2015 us=398474 MANAGEMENT: CMD 'hold release'
+Tue Feb 10 20:57:38 2015 us=399474 WARNING: --ping should normally be used with --ping-restart or --ping-exit
+Tue Feb 10 20:57:38 2015 us=399474 Static Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Feb 10 20:57:38 2015 us=399474 Static Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Feb 10 20:57:38 2015 us=399474 Static Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Feb 10 20:57:38 2015 us=399474 Static Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Feb 10 20:57:38 2015 us=399474 LZO compression initialized
+Tue Feb 10 20:57:38 2015 us=399474 Socket Buffers: R=[8192->8192] S=[8192->8192]
+Tue Feb 10 20:57:38 2015 us=401474 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Tue Feb 10 20:57:38 2015 us=401474 MANAGEMENT: >STATE:1423601858,ASSIGN_IP,,10.3.0.127,
+Tue Feb 10 20:57:38 2015 us=401474 open_tun, tt->ipv6=0
+Tue Feb 10 20:57:38 2015 us=402474 TAP-WIN32 device [Conexión de área local 2] opened: \\.\Global\{9162A456-1235-4A2A-BED1-C051EC4B5BB9}.tap
+Tue Feb 10 20:57:38 2015 us=402474 TAP-Windows Driver Version 9.21 
+Tue Feb 10 20:57:38 2015 us=402474 TAP-Windows MTU=1500
+Tue Feb 10 20:57:38 2015 us=405475 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.3.0.127/255.255.255.0 on interface {9162A456-1235-4A2A-BED1-C051EC4B5BB9} [DHCP-serv: 10.3.0.0, lease-time: 31536000]
+Tue Feb 10 20:57:38 2015 us=406475 Successful ARP Flush on interface [36] {9162A456-1235-4A2A-BED1-C051EC4B5BB9}
+Tue Feb 10 20:57:38 2015 us=409475 Data Channel MTU parms [ L:1577 D:1450 EF:45 EB:135 ET:32 EL:0 AF:3/1 ]
+Tue Feb 10 20:57:38 2015 us=410475 Local Options String: 'V4,dev-type tap,link-mtu 1577,tun-mtu 1532,proto UDPv4,ifconfig 10.3.0.0 255.255.255.0,comp-lzo,cipher BF-CBC,auth SHA1,keysize 128,secret'
+Tue Feb 10 20:57:38 2015 us=410475 Expected Remote Options String: 'V4,dev-type tap,link-mtu 1577,tun-mtu 1532,proto UDPv4,ifconfig 10.3.0.0 255.255.255.0,comp-lzo,cipher BF-CBC,auth SHA1,keysize 128,secret'
+Tue Feb 10 20:57:38 2015 us=410475 Local Options hash (VER=V4): 'e08453d7'
+Tue Feb 10 20:57:38 2015 us=410475 Expected Remote Options hash (VER=V4): 'e08453d7'
+Tue Feb 10 20:57:38 2015 us=410475 UDPv4 link local (bound): [undef]
+Tue Feb 10 20:57:38 2015 us=410475 UDPv4 link remote: [AF_INET]10.26.13.123:1194
+Tue Feb 10 20:57:38 2015 us=604486 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:39 2015 us=493537 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:40 2015 us=619601 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:41 2015 us=568655 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:42 2015 us=486708 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:43 2015 us=537768 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:44 2015 us=568827 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:45 2015 us=924905 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:46 2015 us=486937 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:47 2015 us=567999 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:57:48 2015 us=490051 NOTE: --mute triggered...
+Tue Feb 10 20:59:40 2015 us=952484 43 variation(s) on previous 10 message(s) suppressed by --mute
+Tue Feb 10 20:59:40 2015 us=952484 NOTE: failed to obtain options consistency info from peer -- this could occur if the remote peer is running a version of OpenVPN before 1.5-beta8 or if there is a network connectivity problem, and will not necessarily prevent OpenVPN from running (0 bytes received from peer, 0 bytes authenticated data channel traffic) -- you can disable the options consistency check with --disable-occ.
+Tue Feb 10 20:59:40 2015 us=953484 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:59:42 2015 us=296561 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:59:49 2015 us=230957 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 20:59:59 2015 us=746559 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:00 2015 us=587607 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:07 2015 us=499002 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:17 2015 us=976601 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:27 2015 us=392140 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:37 2015 us=35692 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:47 2015 us=660299 read UDPv4: Connection reset by peer (WSAECONNRESET) (code=10054)
+Tue Feb 10 21:00:57 2015 us=841882 NOTE: --mute triggered...
+Tue Feb 10 21:01:18 2015 us=141043 3 variation(s) on previous 10 message(s) suppressed by --mute
+Tue Feb 10 21:01:18 2015 us=141043 TCP/UDP: Closing socket
+Tue Feb 10 21:01:18 2015 us=141043 Closing TUN/TAP interface
+Tue Feb 10 21:01:18 2015 us=141043 SIGTERM[hard,] received, process exiting
+Tue Feb 10 21:01:18 2015 us=142043 MANAGEMENT: >STATE:1423602078,EXITING,SIGTERM,,
